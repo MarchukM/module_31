@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.springboottest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +15,7 @@ public class DemoApplication implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         LOG.info("Hello World!");
     }
 }
